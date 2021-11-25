@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Montserrat:wght@300;400;500;600;700&family=Ribeye&family=Roboto&display=swap"
+		rel="stylesheet">
+	<title>Геометка</title>
+</head>
+
+
+<body>
+
+
+
+	<section class="round">
+		<div class="title title-n">
+			Вариант геометки №1
+		</div>
+		<div class="description">
+			*Вторая геометка раскрывает иконки при наведении
+		</div>
+
+		<input id="cold" type="checkbox" class="custom">
+		<label for="cold">Отключение холодного водоснабжения</label>
+
+		<input id="hot" type="checkbox" class="custom">
+		<label for="hot">Отключение горячего водоснабжения</label>
+
+		<input id="gas" type="checkbox" class="custom">
+		<label for="gas">Отключение газа</label>
+
+		<input id="electricity" type="checkbox" class="custom">
+		<label for="electricity">Отключение электричества</label>
+
+		<input id="heating" type="checkbox" class="custom">
+		<label for="heating">Отключение отопления</label>
+
+
+		<div class="geo geo-round">
+			<img id="location-round" class="location-round" src="./image/geo.svg" alt="" data-zkh="">
+			<img id="geo-cold" class="round-img round-cold geo-img" src="./image/cold.svg" alt="">
+			<img id="geo-electricity" class="round-img round-electricity geo-img" src="./image/electricity.svg" alt="">
+
+			<!--<img id="geo-gas" class="geo-round geo-gas" src="./image/gas.png" alt="">-->
+			<!--<img id="geo-heating" class="geo-round geo-heating" src="./image/radiator.png" alt="">-->
+			<div id="geo-heating" class="round-img round-heating geo-img">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172"
+					style=" fill:#58A728;">
+					<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+						stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+						font-family="none" font-weight="none" font-size="none" text-anchor="none"
+						style="mix-blend-mode: normal">
+						<path d="M0,172v-172h172v172z" fill="none"></path>
+						<g fill="#58A728">
+							<path
+								d="M32.68,0.1075c-1.76031,0 -3.46687,0.56438 -4.73,1.8275l-7.525,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v10.2125c-1.8275,-1.65281 -4.23281,-2.6875 -6.88,-2.6875c-5.68406,0 -10.32,4.63594 -10.32,10.32c0,5.68406 4.63594,10.32 10.32,10.32c2.64719,0 5.0525,-1.03469 6.88,-2.6875v84.495c-1.8275,-1.65281 -4.23281,-2.6875 -6.88,-2.6875c-5.68406,0 -10.32,4.63594 -10.32,10.32c0,5.68406 4.63594,10.32 10.32,10.32c2.64719,0 5.0525,-1.03469 6.88,-2.6875v13.6525c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935zM73.96,0.1075c-1.76031,0 -3.46687,0.56438 -4.73,1.8275l-7.525,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v7.525h-6.88v20.64h6.88v79.12h-6.88v20.64h6.88v10.965c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935zM115.24,0.1075c-1.76031,0 -3.57437,0.56438 -4.8375,1.8275l-7.4175,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v7.525h-6.88v20.64h6.88v79.12h-6.88v20.64h6.88v10.965c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935zM156.52,0.1075c-1.76031,0 -3.57437,0.56438 -4.8375,1.8275l-7.4175,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v7.525h-6.88v20.64h6.88v79.12h-6.88v20.64h6.88v10.965c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935z">
+							</path>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<img id="geo-gas" class="round-img round-gas geo-img" src="https://img.icons8.com/color/48/000000/gas.png" />
+			<img id="geo-hot" class="round-img round-hot geo-img" src="./image/hot.svg" alt="">
+		</div>
+
+		<div class="geo geo-hover">
+			<img id="" class="location-hover" src="./image/geo.svg" alt="" data-zkh="">
+			<img id="geo-cold" class="hover-img hover-cold geo-img" src="./image/cold.svg" alt="">
+			<img id="geo-electricity" class="hover-img hover-electricity geo-img" src="./image/electricity.svg" alt="">
+			<div id="geo-heating" class="hover-img hover-heating  geo-img">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 172 172"
+					style=" fill:#58A728;">
+					<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+						stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+						font-family="none" font-weight="none" font-size="none" text-anchor="none"
+						style="mix-blend-mode: normal">
+						<path d="M0,172v-172h172v172z" fill="none"></path>
+						<g fill="#58A728">
+							<path
+								d="M32.68,0.1075c-1.76031,0 -3.46687,0.56438 -4.73,1.8275l-7.525,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v10.2125c-1.8275,-1.65281 -4.23281,-2.6875 -6.88,-2.6875c-5.68406,0 -10.32,4.63594 -10.32,10.32c0,5.68406 4.63594,10.32 10.32,10.32c2.64719,0 5.0525,-1.03469 6.88,-2.6875v84.495c-1.8275,-1.65281 -4.23281,-2.6875 -6.88,-2.6875c-5.68406,0 -10.32,4.63594 -10.32,10.32c0,5.68406 4.63594,10.32 10.32,10.32c2.64719,0 5.0525,-1.03469 6.88,-2.6875v13.6525c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935zM73.96,0.1075c-1.76031,0 -3.46687,0.56438 -4.73,1.8275l-7.525,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v7.525h-6.88v20.64h6.88v79.12h-6.88v20.64h6.88v10.965c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935zM115.24,0.1075c-1.76031,0 -3.57437,0.56438 -4.8375,1.8275l-7.4175,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v7.525h-6.88v20.64h6.88v79.12h-6.88v20.64h6.88v10.965c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935zM156.52,0.1075c-1.76031,0 -3.57437,0.56438 -4.8375,1.8275l-7.4175,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v7.525h-6.88v20.64h6.88v79.12h-6.88v20.64h6.88v10.965c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935z">
+							</path>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<img id="geo-gas" class="hover-img hover-gas  geo-img" src="https://img.icons8.com/color/48/000000/gas.png" />
+			<img id="geo-hot" class="hover-img hover-hot  geo-img" src="./image/hot.svg" alt="">
+		</div>
+	</section>
+
+
+
+
+
+
+
+	<section class="count">
+		<div class="title title-n">
+			Вариант геометки №2
+		</div>
+		<div class="description">
+			*Сейчас у каждой иконки своя позиция, но потом с помощью JS можно сделать, чтобы иконки динамически
+			выстраивались от центра, в зависимости друг от друга.<br>
+
+		</div>
+		<input id="count-cold" type="checkbox" class="count-checkbox count-custom">
+		<label for="count-cold">Отключение холодного водоснабжения</label>
+
+		<input id="count-hot" type="checkbox" class="count-checkbox  count-custom">
+		<label for="count-hot">Отключение горячего водоснабжения</label>
+
+		<input id="count-gas" type="checkbox" class="count-checkbox  count-custom">
+		<label for="count-gas">Отключение газа</label>
+
+		<input id="count-electricity" type="checkbox" class="count-checkbox  count-custom">
+		<label for="count-electricity">Отключение электричества</label>
+
+		<input id="count-heating" type="checkbox" class="count-checkbox  count-custom">
+		<label for="count-heating">Отключение отопления</label>
+
+		<div class="met">
+			<img id="geo-cold" class="count-img count-cold" src="./image/cold.svg" alt="">
+			<img id="geo-electricity" class="count-img count-electricity" src="./image/electricity.svg" alt="">
+			<div id="geo-heating" class="count-img count-heating">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 172 172"
+					style=" fill:#58A728;">
+					<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+						stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+						font-family="none" font-weight="none" font-size="none" text-anchor="none"
+						style="mix-blend-mode: normal">
+						<path d="M0,172v-172h172v172z" fill="none"></path>
+						<g fill="#58A728">
+							<path
+								d="M32.68,0.1075c-1.76031,0 -3.46687,0.56438 -4.73,1.8275l-7.525,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v10.2125c-1.8275,-1.65281 -4.23281,-2.6875 -6.88,-2.6875c-5.68406,0 -10.32,4.63594 -10.32,10.32c0,5.68406 4.63594,10.32 10.32,10.32c2.64719,0 5.0525,-1.03469 6.88,-2.6875v84.495c-1.8275,-1.65281 -4.23281,-2.6875 -6.88,-2.6875c-5.68406,0 -10.32,4.63594 -10.32,10.32c0,5.68406 4.63594,10.32 10.32,10.32c2.64719,0 5.0525,-1.03469 6.88,-2.6875v13.6525c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935zM73.96,0.1075c-1.76031,0 -3.46687,0.56438 -4.73,1.8275l-7.525,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v7.525h-6.88v20.64h6.88v79.12h-6.88v20.64h6.88v10.965c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935zM115.24,0.1075c-1.76031,0 -3.57437,0.56438 -4.8375,1.8275l-7.4175,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v7.525h-6.88v20.64h6.88v79.12h-6.88v20.64h6.88v10.965c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935zM156.52,0.1075c-1.76031,0 -3.57437,0.56438 -4.8375,1.8275l-7.4175,7.2025c-2.39187,1.92156 -3.225,5.06594 -3.225,7.4175v7.525h-6.88v20.64h6.88v79.12h-6.88v20.64h6.88v10.965c0,2.6875 1.075,5.2675 3.1175,7.31l7.525,7.2025c1.31688,1.31688 3.03688,2.0425 4.8375,2.0425c1.80063,0 3.46688,-0.67187 4.73,-1.935l7.6325,-7.31c2.01563,-2.01562 3.1175,-4.67625 3.1175,-7.6325v-138.5675c0,-2.6875 -1.075,-5.2675 -3.1175,-7.31l-7.525,-7.2025c-1.31687,-1.31687 -3.07719,-1.935 -4.8375,-1.935z">
+							</path>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<img id="geo-gas" class="count-img count-gas" src="https://img.icons8.com/color/48/000000/gas.png" />
+			<img id="geo-hot" class="count-img count-hot" src="./image/hot.svg" alt="">
+			<div class="geo-count">
+				<img id="" class="location-count" src="./image/geo-count.svg" alt="" data-zkh="">
+				<div class="rezult" id="rez"></div>
+			</div>
+	</section>
+
+
+
+
+
+	<section class="static">
+		<div class="title title-n">
+			Вариант геометки №3
+		</div>
+		<div class="description">
+			*Здесь представлены прототипы меток при разном количестве отключений.<br>
+			Каждому типу соответствует свой цвет. Чтобы метка заполнялась нужным цветом и делилась на соответствующее
+			количество секций, необходим скрипт JS.
+		</div>
+
+		<div class="name">
+			Легенда карты (каждому чекбоксу соответствует свой цвет)
+		</div>
+		<input id="static-cold" type="checkbox" class="static-custom">
+		<label for="static-cold">Отключение холодного водоснабжения</label>
+
+		<input id="static-hot" type="checkbox" class="static-custom">
+		<label for="static-hot">Отключение горячего водоснабжения</label>
+
+		<input id="static-gas" type="checkbox" class="static-custom">
+		<label for="static-gas">Отключение газа</label>
+
+		<input id="static-electricity" type="checkbox" class="static-custom">
+		<label for="static-electricity">Отключение электричества</label>
+
+		<input id="static-heating" type="checkbox" class="static-custom">
+		<label for="static-heating">Отключение отопления</label>
+
+		<div class="static-geo">
+			<img id="pop-cold" class="static-img static-cold" src="./image/static-cold.svg" alt="">
+			<img id="pop-hot" class="static-img static-hot" src="./image/static-hot.svg" alt="">
+			<img id="pop-gas" class="static-img static-gas" src="./image/static-gas.svg" alt="">
+			<img id="pop-electricity" class="static-img static-electricity" src="./image/static-electricity.svg" alt="">
+			<img id="pop-heating" class="static-img static-heating" src="./image/static-heating.svg" alt="">
+		</div>
+
+		<div class="variant">
+			<div class="variant-name">
+				Метка при отключении двух типов
+			</div>
+			<div class="variant-img">
+				<img src="./image/two-types.svg" alt="">
+			</div>
+			<div class="variant-name">
+				Метка при отключении трех типов
+			</div>
+			<div class="variant-img">
+				<img src="./image/three-types.svg" alt="">
+			</div>
+			<div class="variant-name">
+				Метка при отключении четырех типов
+			</div>
+			<div class="variant-img">
+				<img src="./image/four-types.svg" alt="">
+			</div>
+			<div class="variant-name">
+				Метка при отключении пяти типов
+			</div>
+			<div class="variant-img">
+				<img src="./image/five-types.svg" alt="">
+			</div>
+		</div>
+
+	</section>
+
+
+
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+	<script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
