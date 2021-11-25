@@ -112,7 +112,7 @@ section {
 }
 
 .geo-img {
-	opacity: 0.2;
+	opacity: 0;
 }
 
 .location-round {
@@ -148,6 +148,8 @@ section {
 }
 
 .round-heating {
+	width: 10px;
+	height: 10px;
 	position: absolute;
 	right: 1px;
 	top: 5px;
@@ -253,6 +255,8 @@ input[id="heating"]:checked ~ .geo > [id="geo-heating"] {
 
 .hover-heating {
 	position: absolute;
+	height: 20px;
+	width: 20px;
 	top: 25px;
 	right: 0px;
 }
